@@ -1,9 +1,13 @@
 import React from "react"
+import { BrowserRouter } from "react-router-dom"
+import Layouts from "./components/layouts"
 
 function App() {
 
   return (
-      <div>Kudai</div>
+      <BrowserRouter>
+        <Layouts />
+      </BrowserRouter>
   )
 }
 
